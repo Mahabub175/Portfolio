@@ -6,7 +6,7 @@ const PreLoader: React.FC = () => {
     return (
         <div className="flex flex-col items-center justify-center h-screen">
             <div>
-                <img src={logo} alt="Logo" />
+                <img src={logo} alt="Logo" className="animate-pulse" />
             </div>
             <PropagateLoader size={25} color="#0070FF" />
         </div>

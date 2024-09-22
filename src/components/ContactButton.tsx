@@ -38,7 +38,7 @@ const ContactButton: React.FC = () => {
                 </a>
             </div>
 
-            <div className="mt-6">
+            <div className="mt-6 w-1/4">
                 <a
                     href="https://drive.google.com/file/d/1TKmVVznKcdl5fQDK5dOngOPKJ3YSIHXF/view?usp=sharing"
                     target="_blank"

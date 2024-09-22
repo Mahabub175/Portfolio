@@ -29,28 +29,26 @@ h6 {
     @apply font-display;
 }
 
-
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 5px;
     &-thumb {
-      background-color: #0070ff;
-      border-radius: 5px;
-      &:hover {
-        background-color: #0f00ff;
-      }
-      &:active {
-        background-color: #0f00ff;
-      }
+        background-color: #0070ff;
+        border-radius: 5px;
+        &:hover {
+            background-color: #0f00ff;
+        }
+        &:active {
+            background-color: #0f00ff;
+        }
     }
-  
+
     &-track {
-      background-color: #eee;
+        background-color: #eee;
     }
-  
+
     &-corner {
-      background-color: #eee;
+        background-color: #eee;
     }
-  }
-  
+}
 
 @import "./anim";

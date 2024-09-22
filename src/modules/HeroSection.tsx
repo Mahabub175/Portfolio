@@ -9,7 +9,7 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
     const handleShowDetails = () => setShowHero(false);
 
     return (
-        <div className="w-full h-full p-6 flex flex-col justify-center lg:max-w-[60%] mx-auto gap-10">
+        <div className="w-full h-screen xl:h-fit 2xl:h-screen flex flex-col justify-center items-center p-6 lg:max-w-[60%] mx-auto gap-10">
             <div className="w-full flex flex-col mx-auto gap-4 relative">
                 <img
                     src="/me.png"
@@ -41,31 +41,30 @@ const HeroSection: React.FC<{ setShowHero: (v: boolean) => void }> = ({
                     connect! Email me or use the provided information.
                 </p>
                 <ContactButton />
-            </div>
-
-            <div className="flex flex-row items-center gap-4">
-                <button
-                    onClick={handleShowDetails}
-                    className="text-slate-300 rounded-full py-4 h-[50px] w-[100px] border border-slate-400 lg:hover:text-primary-400 lg:hover:border-primary-400 transition-colors duration-300 flex flex-row items-center justify-start overflow-hidden relative"
-                >
-                    <FaChevronRight className="hero-enter-btn" />
-                    <FaChevronRight
-                        className="hero-enter-btn"
-                        style={{ animationDelay: "0.4s" }}
-                    />
-                    <FaChevronRight
-                        className="hero-enter-btn"
-                        style={{ animationDelay: "0.8s" }}
-                    />
-                    <FaChevronRight
-                        className="hero-enter-btn"
-                        style={{ animationDelay: "1.2s" }}
-                    />
-                    <FaChevronRight
-                        className="hero-enter-btn"
-                        style={{ animationDelay: "1.6s" }}
-                    />
-                </button>
+                <div className="flex flex-row items-center gap-4 mt-4">
+                    <button
+                        onClick={handleShowDetails}
+                        className="text-slate-300 rounded-full py-4 h-[50px] w-[120px] border border-slate-400 lg:hover:text-primary-400 lg:hover:border-primary-400 transition-colors duration-300 flex flex-row items-center justify-start overflow-hidden relative"
+                    >
+                        <FaChevronRight className="hero-enter-btn" />
+                        <FaChevronRight
+                            className="hero-enter-btn"
+                            style={{ animationDelay: "0.4s" }}
+                        />
+                        <FaChevronRight
+                            className="hero-enter-btn"
+                            style={{ animationDelay: "0.8s" }}
+                        />
+                        <FaChevronRight
+                            className="hero-enter-btn"
+                            style={{ animationDelay: "1.2s" }}
+                        />
+                        <FaChevronRight
+                            className="hero-enter-btn"
+                            style={{ animationDelay: "1.6s" }}
+                        />
+                    </button>
+                </div>
             </div>
         </div>
     );
