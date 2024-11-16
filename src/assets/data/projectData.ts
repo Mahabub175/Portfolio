@@ -56,9 +56,9 @@ export const projectsData = [
         ],
     },
     {
-        title: "Futures Devs",
+        title: "HR Master",
         summary:
-            "Futures Devs is a website for the student of the future. This website allows it's user to select class and enroll in that class by paying for it. This website also has instructor and admin dashboard, which let them do many number of things. Students can also see their enrolled classes and also can cancel them. They can also see their class videos from the dashboard.",
+            "HR Master is a employee management system. It can do all kinds of employee management for user, such as employee management, salary management, attendance management, leave management, etc. It also has a dashboard for admin, which let them do many number of things. Employees can also see their salary, attendance, leave, etc. from the dashboard.",
         projectType: "Company",
         githubLink: "https://github.com/vitasoftsolutions/hm23324c0000013",
         liveLink: "https://hrmaster.vercel.app/",
@@ -80,6 +80,10 @@ export const projectsData = [
         techStack: [
             "JavaScript",
             "Next.js",
+            "Node.js",
+            "Express.js",
+            "Mongoose",
+            "JWT",
             "Redux",
             "Ant Design",
             "Tailwind CSS",
