@@ -12,6 +12,9 @@ const tools: Tools[] = [
     { name: "VSCode", description: "" },
     { name: "Vercel", description: "" },
     { name: "Netlify", description: "" },
+    { name: "CI/CD", description: "" },
+    { name: "Hosting/Deployment", description: "" },
+    { name: "CPanel", description: "" },
 ];
 
 const Tools: React.FC = () => {

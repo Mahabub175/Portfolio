@@ -1,18 +1,87 @@
 export const projectsData = [
     {
-        title: "Photohouse Magazine",
+        title: "PhotoHouse Magazine",
         summary:
-            "Photohouse Magazine shows it’s great magazines and gallery with outstanding design and slides. Admin can upload their magazine and gallery photos. Also it’s authenticated, so it is secured. Users can see all the photos with details.",
+            "PhotoHouse Magazine shows it’s great magazines and gallery with outstanding design and slides. Admin can upload their magazine and gallery photos. Also it’s authenticated, so it is secured. Users can see all the photos with details.",
         projectType: "Client",
         githubLink: "https://github.com/Mahabub175/Photohouse-Gallery",
         liveLink: "https://www.photohousemagazine.com/",
         techStack: [
             "TypeScript",
             "Next.js",
-            "FastAPI",
+            "Ant Design",
             "Node.js",
             "Express.js",
             "MongoDB",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "ECom",
+        summary:
+            "ECom is a restaurant e-commerce website. With it’s modern and attractive design users will have a great time browsing it User can see details about the restaurant. They can also order from the vast category of food menu. Also stripe was used for payment purposes.",
+        projectType: "Client",
+        githubLink: "https://github.com/Mahabub175/ecom-Client",
+        liveLink: "https://ecom.devmahabub.com/",
+        techStack: ["JavaScript", "Vue.js", "Nuxt", "Pinia", "Tailwind CSS"],
+    },
+    {
+        title: "ViStock",
+        summary:
+            "ViStock is a inventory management system. It can do all kinds of product inventory management for user, such as products with variant, stock management, transfer, purchase, sell. It also has a POS for business sells. ViStock is a complete management solutions.",
+        projectType: "Company",
+        githubLink: "https://github.com/vitasoftsolutions/posvariantfront",
+        liveLink: "https://vistock.vitasoftsolutions.com/",
+        techStack: [
+            "JavaScript",
+            "React.js",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "Futures Devs",
+        summary:
+            "Futures Devs is a website for the student of the future. This website allows it's user to select class and enroll in that class by paying for it. This website also has instructor and admin dashboard, which let them do many number of things. Students can also see their enrolled classes and also can cancel them. They can also see their class videos from the dashboard.",
+        projectType: "Company",
+        githubLink: "https://github.com/vitasoftsolutions/vlms21824c0000028v3",
+        liveLink: "https://vlms21824c0000028v3.vercel.app/",
+        techStack: [
+            "JavaScript",
+            "Next.js",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "Futures Devs",
+        summary:
+            "Futures Devs is a website for the student of the future. This website allows it's user to select class and enroll in that class by paying for it. This website also has instructor and admin dashboard, which let them do many number of things. Students can also see their enrolled classes and also can cancel them. They can also see their class videos from the dashboard.",
+        projectType: "Company",
+        githubLink: "https://github.com/vitasoftsolutions/hm23324c0000013",
+        liveLink: "https://hrmaster.vercel.app/",
+        techStack: [
+            "JavaScript",
+            "React.js",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "VCrowd",
+        summary:
+            "VCrowd is a website to raise funds for various causes. It's a crowdfunding website. It's a platform where people can raise funds for various causes. It's a platform where people can raise funds for various causes. Payments methods were used like manual payment and SSLCommerz.",
+        projectType: "Company",
+        githubLink: "https://github.com/vitasoftsolutions/vfnd26824c0000029",
+        liveLink: "https://vcrowd.vitasoftsolutions.com/",
+        techStack: [
+            "JavaScript",
+            "Next.js",
+            "Redux",
+            "Ant Design",
             "Tailwind CSS",
         ],
     },
@@ -26,7 +95,6 @@ export const projectsData = [
         techStack: [
             "JavaScript",
             "React.js",
-            "FastAPI",
             "Node.js",
             "Express.js",
             "MongoDB",
@@ -93,7 +161,6 @@ export const projectsData = [
         techStack: [
             "JavaScript",
             "React.js",
-            "FastAPI",
             "Node.js",
             "Express.js",
             "MongoDB",
@@ -127,7 +194,6 @@ export const projectsData = [
         techStack: [
             "JavaScript",
             "React.js",
-            "FastAPI",
             "Node.js",
             "Express.js",
             "MongoDB",

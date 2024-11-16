@@ -136,7 +136,7 @@ const ContactPage: React.FC = () => {
                         </div>
                         <button
                             disabled={loading}
-                            className="bg-primary-400 lg:hover:bg-primary-200 rounded-lg px-4 py-2 text-white w-full lg:max-w-[200px] flex items-center justify-center disabled:opacity-75"
+                            className="bg-primary-400 lg:hover:bg-primary-200 rounded-lg px-4 py-2 text-white w-full lg:max-w-[200px] flex items-center justify-center disabled:opacity-75 font-bold"
                         >
                             {loading ? (
                                 <div className="animate-spin w-6 h-6 rounded-full border-4 border-t-primary-400 border-white bg-transparent" />
