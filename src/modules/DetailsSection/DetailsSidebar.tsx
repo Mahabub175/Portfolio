@@ -1,6 +1,6 @@
 import React from "react";
 import { startCase } from "lodash";
-import { FaTimes } from "react-icons/fa";
+import { FaGithub, FaTimes } from "react-icons/fa";
 import { homePageTabs } from "../../constants";
 
 const DetailsSidebar: React.FC<{
@@ -16,8 +16,8 @@ const DetailsSidebar: React.FC<{
 
     return (
         <aside
-            className={`z-[100] fixed top-0 left-0 bottom-0 bg-gray-950 min-w-max w-full md:max-w-[200px] lg:max-w-[250px] flex flex-col p-4 gap-2 transition-transform duration-300
-            ${showSidebar ? "" : "-translate-x-full md:translate-x-0"}`}
+            className={`z-[100] fixed top-0 left-0 bottom-0 bg-gray-900 min-w-max w-full lg:max-w-[300px] flex flex-col p-6 gap-2 transition-transform duration-300 overflow-y-auto font-display
+            ${showSidebar ? "" : "-translate-x-full lg:translate-x-0"}`}
         >
             <div className="w-full flex items-center justify-between mb-4">
                 <button onClick={() => window.location.reload()}>
@@ -49,10 +49,19 @@ const DetailsSidebar: React.FC<{
                     {startCase(t)}
                 </button>
             ))}
-            <div className="mt-auto">
-                <small className="text-slate-400">
-                    Built with TypeScript and React
+            <div className="mt-auto pt-6 flex items-center justify-between font-body">
+                <small className="text-slate-300">
+                    Built with <span className="font-semibold">React</span> &{" "}
+                    <span className="font-semibold">TypeScript</span>
                 </small>
+                <a
+                    href="https://github.com/Mahabub175/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-slate-200 text-xl"
+                >
+                    <FaGithub />
+                </a>
             </div>
         </aside>
     );

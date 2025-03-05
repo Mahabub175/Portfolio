@@ -17,13 +17,51 @@ export const projectsData = [
         ],
     },
     {
+        title: "Komedei",
+        summary:
+            "Komedei is a modern E-Commerce website. Admin can control the full website dynamically. User can also order and do all sorts of things from the vast category of products. Also admin and user have their separate dashboard for full control.",
+        projectType: "Company",
+        githubLink: "https://github.com/Mahabub175/Viscart-Client-KomeDei",
+        liveLink: "https://komedei.com/",
+        techStack: [
+            "JavaScript",
+            "Next.js",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+        ],
+    },
+    {
         title: "ECom",
         summary:
             "ECom is a restaurant e-commerce website. With it’s modern and attractive design users will have a great time browsing it User can see details about the restaurant. They can also order from the vast category of food menu. Also stripe was used for payment purposes.",
         projectType: "Client",
         githubLink: "https://github.com/Mahabub175/ecom-Client",
-        liveLink: "https://ecom.devmahabub.com/",
-        techStack: ["JavaScript", "Vue.js", "Nuxt", "Pinia", "Tailwind CSS"],
+        liveLink: "https://laceibapr.com/",
+        techStack: ["JavaScript", "Vue.js", "Nuxt.js", "Pinia", "Tailwind CSS"],
+    },
+    {
+        title: "Tools",
+        summary:
+            "Tools is a modern E-Commerce website. Admin can control the full website dynamically. User can also order and do all sorts of things from the vast category of products. Also admin and user have their separate dashboard for full control.",
+        projectType: "Company",
+        githubLink: "https://github.com/Mahabub175/Viscart-Client-Tools",
+        liveLink: "https://tools.moonsgallerysystem.com/",
+        techStack: [
+            "JavaScript",
+            "Next.js",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+        ],
     },
     {
         title: "ViStock",

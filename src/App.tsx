@@ -6,6 +6,13 @@ import { HeroSection } from "./modules";
 const App: React.FC = () => {
     const [showHero, setShowHero] = useState(true);
     const [loading, setLoading] = useState(false);
+
+    const [revealUnderneath, setRevealUnderneath] = useState(false);
+
+    useEffect(() => {
+        document.body.style.overflow = showHero ? "hidden" : "auto";
+    }, [showHero]);
+
     useEffect(() => {
         setLoading(true);
         setTimeout(() => {
@@ -19,18 +26,23 @@ const App: React.FC = () => {
                 <PreLoader />
             ) : (
                 <main
-                    className={`w-full max-w-full bg-gray-950 min-h-[100vh] overflow-hidden ${
-                        showHero ? "max-h-[100vh]" : ""
-                    }`}
+                    className={`w-full min-h-max flex flex-col justify-start items-start 2xl:items-center 
+            ${showHero ? "max-h-[100vh]" : ""} 
+            `}
                 >
                     <DetailsSection />
-                    <div
-                        className={`z-[100] w-full fixed top-0 right-0 left-0 bottom-0 flex flex-col justify-start items-start bg-gray-950 transition-transform duration-500 overflow-x-auto ${
-                            showHero ? "" : "translate-x-full"
-                        }`}
-                    >
-                        <HeroSection setShowHero={setShowHero} />
-                    </div>
+                    {
+                        <div
+                            className={`z-[100] w-full fixed top-0 right-0 left-0 bottom-0 flex flex-col justify-start items-start transition-[transform,background-color] duration-500 ease-in-out bg-gray-950 
+                        ${revealUnderneath ? "md:bg-gray-950/60" : ""} 
+                        ${showHero ? "backdrop-blur-sm" : "translate-x-full"}`}
+                        >
+                            <HeroSection
+                                setShowHero={setShowHero}
+                                setRevealUnderneath={setRevealUnderneath}
+                            />
+                        </div>
+                    }
                 </main>
             )}
         </>

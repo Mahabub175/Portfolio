@@ -11,11 +11,11 @@ const frameworks: Framework[] = [
     { name: "Express.js", description: "" },
     { name: "Next.js", description: "" },
     { name: "Vue.js", description: "" },
-    { name: "Nuxt", description: "" },
+    { name: "Nuxt.js", description: "" },
     { name: "Nest.js", description: "" },
     { name: "Mongoose", description: "" },
     { name: "Redux", description: "" },
-    { name: "TailwindCSS", description: "" },
+    { name: "Tailwind", description: "" },
     { name: "Bootstrap", description: "" },
     { name: "Axios", description: "" },
     { name: "JWT", description: "" },
@@ -27,6 +27,7 @@ const frameworks: Framework[] = [
     { name: "Ant Design", description: "" },
     { name: "Next UI", description: "" },
     { name: "Prisma", description: "" },
+    { name: "WebSocket", description: "" },
 ];
 
 const Frameworks: React.FC = () => {

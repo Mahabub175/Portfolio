@@ -5,7 +5,7 @@ import { experienceData } from "../../assets/data/experienceData";
 
 const ExperiencesSection: React.FC = () => {
     return (
-        <section className="w-full min-h-max flex flex-col justify-start items-start py-6 px-8 md:ml-[200px] lg:ml-[250px] mt-[50px]">
+        <section className="w-full min-h-max flex flex-col justify-start items-start py-6 px-8 md:ml-[200px] lg:ml-[350px] mt-[50px]">
             <div className="w-full prose max-w-full prose-h1:text-slate-300 prose-h1:font-bold">
                 <h1>
                     {"Experiences".split("").map((l, i) => (
