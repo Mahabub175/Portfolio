@@ -10,7 +10,7 @@ type Props = {
 };
 
 const aboutMeWords =
-    "I am a passionate full-stack web developer with expertise in creating attractive, user-friendly websites. Specializing in clean, responsive designs using HTML, CSS, Tailwind, JavaScript, and React. Proficient in Next.js, Node.js, Express.js, and MongoDB. Eager to enhance your team – let's connect! Email me or use the provided information".split(
+    "I am a passionate full-stack web developer with expertise in creating attractive, user-friendly websites. Specializing in clean, responsive designs using HTML, CSS, Tailwind, JavaScript, and React. Proficient in Next.js, Node.js, Express.js, and MongoDB. Eager to enhance your team – let's connect! Email me or use the provided information.".split(
         "",
     );
 const aboutMeExt = "";
@@ -57,7 +57,7 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
                         <span
                             dangerouslySetInnerHTML={{ __html: aboutMe }}
                         ></span>
-                        <span className="inline-block mb-[-5px] h-5 w-2 bg-primary-400 cursor-blink"></span>
+                        <span className="inline-block mb-[-5px] h-5 w-1 bg-primary-400 cursor-blink"></span>
                     </span>
                     <span
                         className="opacity-0 pointer-events-none invisible"
