@@ -27,7 +27,7 @@ const frameworks: Framework[] = [
     { name: "Ant Design", description: "" },
     { name: "Next UI", description: "" },
     { name: "Prisma", description: "" },
-    { name: "WebSocket", description: "" },
+    { name: "Socket.io", description: "" },
 ];
 
 const Frameworks: React.FC = () => {
@@ -38,7 +38,7 @@ const Frameworks: React.FC = () => {
                 {frameworks.map((f) => (
                     <div
                         key={`skills-frameworks-${f.name}`}
-                        className="flex-grow rounded-lg flex justify-center items-center h-[50px] bg-slate-800 px-2 cursor-pointer lg:hover:shadow-[0_0_0_2px] lg:hover:shadow-primary-400 transition-[box-shadow] duration-300"
+                        className="flex-grow rounded-lg flex justify-center items-center h-[50px] bg-slate-800 px-2 cursor-pointer lg:hover:shadow-[0_0_0_2px] lg:hover:shadow-primary-400 transition-[box-shadow] duration-300 text-center"
                     >
                         {f.name}
                     </div>

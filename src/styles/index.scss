@@ -30,25 +30,26 @@ h6 {
 }
 
 ::-webkit-scrollbar {
-    width: 5px;
-    &-thumb {
-        background-color: #0070ff;
-        border-radius: 5px;
-        &:hover {
-            background-color: #0f00ff;
-        }
-        &:active {
-            background-color: #0f00ff;
-        }
-    }
+    // width: 5px;
+    // &-thumb {
+    //     background-color: #0070ff;
+    //     border-radius: 5px;
+    //     &:hover {
+    //         background-color: #0f00ff;
+    //     }
+    //     &:active {
+    //         background-color: #0f00ff;
+    //     }
+    // }
 
-    &-track {
-        background-color: #eee;
-    }
+    // &-track {
+    //     background-color: #eee;
+    // }
 
-    &-corner {
-        background-color: #eee;
-    }
+    // &-corner {
+    //     background-color: #eee;
+    // }
+    display: none;
 }
 
 @import "./anim";

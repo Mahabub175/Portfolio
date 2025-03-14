@@ -12,9 +12,10 @@ const tools: Tools[] = [
     { name: "VSCode", description: "" },
     { name: "Vercel", description: "" },
     { name: "Netlify", description: "" },
-    { name: "CI/CD", description: "" },
-    { name: "Hosting/Deployment", description: "" },
+    { name: "CI / CD", description: "" },
+    { name: "Hosting / Deployment", description: "" },
     { name: "CPanel", description: "" },
+    { name: "Jest", description: "" },
 ];
 
 const Tools: React.FC = () => {
@@ -25,7 +26,7 @@ const Tools: React.FC = () => {
                 {tools.map((t) => (
                     <div
                         key={`skills-language-${t.name}`}
-                        className="flex-grow rounded-lg flex justify-center items-center h-[50px] bg-slate-800 px-2 cursor-pointer lg:hover:shadow-[0_0_0_2px] lg:hover:shadow-primary-400 transition-[box-shadow] duration-300"
+                        className="flex-grow rounded-lg flex justify-center items-center h-[50px] bg-slate-800 px-2 cursor-pointer lg:hover:shadow-[0_0_0_2px] lg:hover:shadow-primary-400 transition-[box-shadow] duration-300 text-center"
                     >
                         {t.name}
                     </div>

@@ -35,8 +35,8 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
     const handleShowDetails = () => setShowHero(false);
 
     return (
-        <div className="w-full h-full p-6 flex flex-col justify-center max-w-4xl mx-auto gap-10">
-            <div className="w-full flex flex-col mx-auto gap-6 relative">
+        <div className="w-full h-full p-6 flex flex-col justify-center max-w-4xl mx-auto gap-10 lg:py-20 xxl:py-0 overflow-y-auto">
+            <div className="w-full flex flex-col mx-auto gap-6 relative lg:pt-20 xxl:pt-0">
                 <div className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] overflow-hidden flex items-center justify-center rounded-full transition-all duration-100">
                     <img src="/me.png" className="object-cover" />
                 </div>

@@ -1,11 +1,15 @@
 export const experienceData = [
     {
         companyName: "Vitasoft Solutions",
-        companyLocation: "Jatrabari, Dhaka",
+
+        companyLocation: "Jatrabari, Dhaka, Bangladesh",
         companyUrl: "https://vitasoftsolutions.com/",
-        position: "Front-End Developer",
+        position: "Software Developer",
+        type: "Full-Time, Onsite",
         from: "March 2024",
         till: "Present",
+        companyDescription:
+            "Vitasoft Solutions is a leading software development company specializing in creating innovative solutions for businesses of all sizes. With a team of highly skilled developers and a commitment to excellence, Vitasoft Solutions has become a trusted partner for businesses looking to transform their digital presence.",
         current: true,
         jobType: "Onsite",
         employmentType: "Full-Time",
@@ -30,8 +34,11 @@ export const experienceData = [
     },
     {
         companyName: "Introbangla",
-        companyLocation: "Uttara, Dhaka",
+        companyLocation: "Uttara, Dhaka, Bangladesh",
+        companyDescription:
+            "Introbangla is as software company that provides top-notch software development services to our esteemed clients. They have a bold vision to revolutionize business operations through innovative and user-friendly software solutions. They are dedicated to providing a supportive and enjoyable work environment for all of our workers.",
         companyUrl: "https://www.introbangla.com/",
+        type: "Internship, Remote",
         position: "Full-Stack Developer",
         from: "August 2023",
         till: "February 2024",
@@ -55,9 +62,12 @@ export const experienceData = [
     },
     {
         companyName: "Ena-Ema Technologies",
-        companyLocation: "Savar Cantonment, Dhaka",
+        companyLocation: "Savar Cantonment, Dhaka, Bangladesh",
         companyUrl: "https://enaema.com/",
+        companyDescription:
+            "Ena-Ema Technologies stands at the forefront of software development, offering innovative solutions tailored to businesses of all scales. Driven by a team of expert developers and a passion for excellence, the company has established itself as a reliable partner for businesses striving to elevate their digital footprint.",
         position: "Full-Stack Developer",
+        type: "Internship, Remote",
         from: "December 2023",
         till: "January 2024",
         current: false,
