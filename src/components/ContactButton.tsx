@@ -43,7 +43,7 @@ const ContactButton: React.FC = () => {
                     href="https://drive.google.com/file/d/1OinvYyuXQNco2QStGZkGo22-qr1jg7ec/view?usp=sharing"
                     target="_blank"
                 >
-                    <button className="flex items-center justify-center gap-2 text-white bg-primary-400 px-10 py-2 rounded-xl font-bold border border-primary-400 hover:bg-transparent duration-300">
+                    <button className="flex items-center justify-center gap-2 text-white bg-primary-400 px-10 py-2 rounded-lg font-bold border border-primary-400 hover:bg-transparent duration-300">
                         Resume
                         <BsDownload className="hover:animate-bounce transition-all" />
                     </button>
