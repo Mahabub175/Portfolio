@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const ContactButton: React.FC = () => {
     return (
         <div>
-            <div className="flex flex-wrap mt-4 gap-x-8 text-4xl">
+            <div className="flex flex-wrap mt-4 gap-x-8 text-4xl justify-center items-center">
                 <a
                     target="_blank"
                     href="https://www.facebook.com/mahabub.ahmmed.52/"
@@ -25,7 +25,7 @@ const ContactButton: React.FC = () => {
                     target="_blank"
                     href="https://www.instagram.com/mahabub_tro/"
                 >
-                    <BsInstagram className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full " />
+                    <BsInstagram className="text-white hover:bg-primary-400 duration-500 hover:scale-125 rounded-full" />
                 </a>
                 <a
                     target="_blank"
@@ -38,7 +38,7 @@ const ContactButton: React.FC = () => {
                 </a>
             </div>
 
-            <div className="mt-6 w-1/4">
+            <div className="mt-6 flex justify-center items-center">
                 <a
                     href="https://drive.google.com/file/d/1OinvYyuXQNco2QStGZkGo22-qr1jg7ec/view?usp=sharing"
                     target="_blank"

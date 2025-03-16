@@ -36,11 +36,11 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
 
     return (
         <div className="w-full h-full p-6 flex flex-col justify-center max-w-4xl mx-auto gap-10 lg:py-20 xxl:py-0 overflow-y-auto">
-            <div className="w-full flex flex-col mx-auto gap-6 relative lg:pt-20 xxl:pt-0">
+            <div className="w-full flex flex-col mx-auto justify-center items-center gap-3 lg:gap-6 relative lg:pt-20 xxl:pt-0">
                 <div className="w-[100px] h-[100px] md:w-[150px] md:h-[150px] overflow-hidden flex items-center justify-center rounded-full transition-all duration-100">
                     <img src="/me.png" className="object-cover" />
                 </div>
-                <h1 className="text-slate-300 font-bold text-3xl sm:text-4xl md:text-5xl selection:bg-transparent selection:text-primary-400">
+                <h1 className="text-slate-300 font-bold text-4xl sm:text-4xl md:text-5xl selection:bg-transparent selection:text-primary-400">
                     {"Mahabub Ahmed".split("").map((str, i) => (
                         <AnimatedText
                             key={"first-name-" + str + i}
@@ -49,10 +49,10 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
                         />
                     ))}
                 </h1>
-                <h4 className="text-primary-400 font-mono text-xl md:text-2xl">
+                <h4 className="text-primary-400 font-mono text-2xl md:text-3xl font-semibold -mt-1">
                     Full-Stack Developer
                 </h4>
-                <p className="prose prose-invert prose-slate max-w-full relative text-base md:text-lg">
+                <p className="prose prose-invert prose-slate max-w-full relative text-sm md:text-lg text-center">
                     <span className="absolute">
                         <span
                             dangerouslySetInnerHTML={{ __html: aboutMe }}
@@ -72,7 +72,7 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
             <div className="flex flex-col items-center gap-4">
                 <button
                     onClick={handleShowDetails}
-                    className="z-[10] text-slate-300 rounded-full py-4 h-[50px] w-full lg:hover:text-primary-400 lg:hover:border-primary-400 transition-colors duration-300 flex flex-row items-center justify-start overflow-hidden relative"
+                    className="z-[10] text-slate-300 rounded-full py-4 h-[50px] w-full lg:hover:text-primary-400 lg:hover:border-primary-400 transition-colors duration-300 flex flex-row items-center overflow-hidden relative animate-pulse justify-center"
                 >
                     <div className="absolute left-0 right-0 h-0 border border-dashed border-slate-600"></div>
                     <p
@@ -84,7 +84,8 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
                             setHoveringEnter(false);
                             setRevealUnderneath(false);
                         }}
-                        className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-gray-900 flex gap-2 items-center min-w-max px-4 py-2 rounded-lg font-mono"
+                        className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-gray-900 flex justify-center
+                     gap-2 items-center min-w-max px-4 py-2 rounded-lg font-mono"
                     >
                         <span
                             className={`${

@@ -4,7 +4,7 @@ import { PropagateLoader } from "react-spinners";
 
 const PreLoader: React.FC = () => {
     return (
-        <div className="flex flex-col items-center justify-center h-screen">
+        <div className="flex flex-col items-center justify-center h-screen -mt-10">
             <div>
                 <img src={logo} alt="Logo" className="animate-pulse" />
             </div>
