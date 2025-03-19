@@ -85,7 +85,7 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
                             setRevealUnderneath(false);
                         }}
                         className="absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 bg-gray-900 flex justify-center
-                     gap-2 items-center min-w-max px-4 py-2 rounded-lg font-mono"
+                     gap-2 items-center min-w-max px-4 py-2 rounded-lg font-mono font-bold lg:text-lg"
                     >
                         <span
                             className={`${

@@ -48,11 +48,11 @@ const ExperiencesSection: React.FC = () => {
                             rel="noreferrer"
                         >
                             <h4 className="flex flex-col lg:flex-row lg:items-center gap-1 group-hover:underline">
-                                <span className="font-bold text-2xl md:text-xl">
+                                <span className="font-bold text-xl lg:text-2xl">
                                     {d?.companyName}
                                 </span>
                                 <span className="rounded-full bg-slate-300 size-1.5 mx-1 hidden md:block" />
-                                <span className="font-normal text-sm">
+                                <span className="font-normal text-xs lg:text-sm">
                                     {d?.companyLocation}
                                 </span>
                                 <FaArrowRight className="text-xs -rotate-45 hidden md:block" />
@@ -63,7 +63,7 @@ const ExperiencesSection: React.FC = () => {
                         </a>
                     </div>
 
-                    <ul className="text-slate-400">
+                    <ul className="text-slate-400 text-[15px] lg:text-base">
                         {d?.description.map((desc) => (
                             <li
                                 key={desc}
