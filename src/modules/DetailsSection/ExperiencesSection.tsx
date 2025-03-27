@@ -29,12 +29,12 @@ const ExperiencesSection: React.FC = () => {
                     key={d?.companyName}
                     className="w-full prose max-w-full prose-h4:text-slate-300 prose-h4:font-medium prose-h4:my-2 text-slate-400 prose-strong:text-slate-400 xxl:w-5/6"
                 >
-                    <div className="flex flex-col lg:flex-row lg:items-center gap-3">
-                        <small className="flex flex-row items-center gap-1 text-slate-500 font-mono text-base md:text-sm">
+                    <div className="flex flex-col lg:flex-row lg:items-center gap-2 lg:gap-3">
+                        <small className="flex flex-row items-center gap-1 text-slate-500 font-mono text-sm">
                             {d?.type}
                         </small>
                         <span className="hidden lg:block">|</span>
-                        <small className="flex flex-row items-center gap-1 text-slate-500 font-mono text-base md:text-sm">
+                        <small className="flex flex-row items-center gap-1 text-slate-500 font-mono text-sm">
                             {d?.from} <FaMinus className="text-xl" /> {d?.till}
                         </small>
                     </div>
