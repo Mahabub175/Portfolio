@@ -17,12 +17,30 @@ export const projectsData = [
         ],
     },
     {
-        title: "Komedei",
+        title: "Genesis Carpenter",
         summary:
-            "Komedei is a modern E-Commerce website. Admin can control the full website dynamically. User can also order and do all sorts of things from the vast category of products. Also admin and user have their separate dashboard for full control.",
+            "Genesis Carpenter is a business portfolio website that showcase all their works and details. With it's beautiful design users will have a great time browsing it. Also it's authenticated, so it is secured. Users can see all the works with details and admin can control the full website dynamically.",
+        projectType: "Client",
+        githubLink: "https://github.com/Mahabub175/Construction-Client",
+        liveLink: "https://genesiscarpenter.vercel.app/",
+        techStack: [
+            "Javascript",
+            "Next.js",
+            "Redux",
+            "Ant Design",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "Grocery",
+        summary:
+            "Grocery is a modern E-Commerce website. Admin can control the full website dynamically. User can also order and do all sorts of things from the vast category of products. Also admin and user have their separate dashboard for full control.",
         projectType: "Company",
         githubLink: "https://github.com/Mahabub175/Viscart-Client-KomeDei",
-        liveLink: "https://komedei.com/",
+        liveLink: "https://grocery.moonsgallerysystem.com/",
         techStack: [
             "JavaScript",
             "Next.js",
@@ -64,12 +82,31 @@ export const projectsData = [
         ],
     },
     {
+        title: "Organic",
+        summary:
+            "Organic is a modern E-Commerce website. Admin can control the full website dynamically. User can also order and do all sorts of things from the vast category of products. Also admin and user have their separate dashboard for full control.",
+        projectType: "Company",
+        githubLink: "https://github.com/Mahabub175/Viscart-Client-V5",
+        liveLink: "https://organic.moonsgallerysystem.com/",
+        techStack: [
+            "JavaScript",
+            "Next.js",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+            "Node.js",
+            "Express.js",
+            "MongoDB",
+            "Socket.io",
+        ],
+    },
+    {
         title: "ViStock",
         summary:
             "ViStock is a inventory management system. It can do all kinds of product inventory management for user, such as products with variant, stock management, transfer, purchase, sell. It also has a POS for business sells. ViStock is a complete management solutions.",
         projectType: "Company",
         githubLink: "https://github.com/vitasoftsolutions/posvariantfront",
-        liveLink: "https://vistock.vitasoftsolutions.com/",
+        liveLink: "https://posvariantfront.vercel.app/",
         techStack: [
             "JavaScript",
             "React.js",
@@ -94,21 +131,6 @@ export const projectsData = [
         ],
     },
     {
-        title: "HR Master",
-        summary:
-            "HR Master is a employee management system. It can do all kinds of employee management for user, such as employee management, salary management, attendance management, leave management, etc. It also has a dashboard for admin, which let them do many number of things. Employees can also see their salary, attendance, leave, etc. from the dashboard.",
-        projectType: "Company",
-        githubLink: "https://github.com/vitasoftsolutions/hm23324c0000013",
-        liveLink: "https://hrmaster.vercel.app/",
-        techStack: [
-            "JavaScript",
-            "React.js",
-            "Redux",
-            "Ant Design",
-            "Tailwind CSS",
-        ],
-    },
-    {
         title: "VCrowd",
         summary:
             "VCrowd is a website to raise funds for various causes. It's a crowdfunding website. It's a platform where people can raise funds for various causes. It's a platform where people can raise funds for various causes. Payments methods were used like manual payment and SSLCommerz.",
@@ -122,6 +144,21 @@ export const projectsData = [
             "Express.js",
             "Mongoose",
             "JWT",
+            "Redux",
+            "Ant Design",
+            "Tailwind CSS",
+        ],
+    },
+    {
+        title: "HR Master",
+        summary:
+            "HR Master is a employee management system. It can do all kinds of employee management for user, such as employee management, salary management, attendance management, leave management, etc. It also has a dashboard for admin, which let them do many number of things. Employees can also see their salary, attendance, leave, etc. from the dashboard.",
+        projectType: "Company",
+        githubLink: "https://github.com/vitasoftsolutions/hm23324c0000013",
+        liveLink: "https://hrmaster.vercel.app/",
+        techStack: [
+            "JavaScript",
+            "React.js",
             "Redux",
             "Ant Design",
             "Tailwind CSS",
