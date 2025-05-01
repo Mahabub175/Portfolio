@@ -17,7 +17,7 @@ const ExperiencesSection: React.FC = () => {
                     ))}
                 </h1>
                 <small className="text-slate-400 text-sm">
-                    Started my web development journey from January 2023
+                    Started my web development journey from January 2020
                 </small>
             </div>
 
