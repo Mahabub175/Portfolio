@@ -11,7 +11,7 @@ import { SiGmail } from "react-icons/si";
 const ContactButton: React.FC = () => {
     return (
         <div>
-            <div className="flex flex-wrap mt-4 gap-x-8 text-4xl justify-center items-center">
+            <div className="flex flex-wrap mt-4 pt-5 lg:pt-0 gap-x-8 text-4xl justify-center items-center">
                 <a
                     target="_blank"
                     href="https://www.facebook.com/mahabub.ahmmed.52/"

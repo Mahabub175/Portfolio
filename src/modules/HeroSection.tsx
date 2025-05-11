@@ -8,11 +8,11 @@ type Props = {
     setShowHero: (v: boolean) => void;
     setRevealUnderneath: (v: boolean) => void;
 };
-
 const aboutMeWords =
-    "I am a passionate full-stack web developer with expertise in creating attractive, user-friendly websites. Specializing in clean, responsive designs using HTML, CSS, Tailwind, JavaScript, and React. Proficient in Next.js, Node.js, Express.js, and MongoDB. Eager to enhance your team – let's connect! Email me or use the provided information.".split(
+    "As a dedicated full-stack developer, I craft scalable, user-centric applications from front to back. I specialize in building sleek, responsive interfaces using React, Next.js and powerful backends with Node.js, Express, and MongoDB. Passionate about clean code, performance optimization, and continuous learning, I'm always ready to bring ideas to life. Let's collaborate and create something extraordinary!".split(
         "",
     );
+
 const aboutMeExt = "";
 
 const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
@@ -35,7 +35,7 @@ const HeroSection: React.FC<Props> = ({ setShowHero, setRevealUnderneath }) => {
     const handleShowDetails = () => setShowHero(false);
 
     return (
-        <div className="w-full h-full p-6 flex flex-col justify-center max-w-4xl mx-auto gap-10 lg:py-20 xxl:py-0 overflow-y-auto">
+        <div className="w-full h-full p-4 lg:p-6 flex flex-col justify-center max-w-5xl mx-auto gap-10 overflow-y-auto">
             <div className="w-full flex flex-col mx-auto justify-center items-center gap-3 lg:gap-6 relative lg:pt-20 xxl:pt-0">
                 <div className="w-[120px] h-[120px] lg:w-[150px] lg:h-[150px] overflow-hidden flex items-center justify-center rounded-full">
                     <img src="/me.png" className="object-cover" />
