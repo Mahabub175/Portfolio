@@ -27,8 +27,7 @@ const App: React.FC = () => {
             ) : (
                 <main
                     className={`w-full min-h-max flex flex-col justify-start items-start 2xl:items-center 
-            ${showHero ? "max-h-[100vh]" : ""} 
-            `}
+            ${showHero ? "max-h-[100vh]" : ""}`}
                 >
                     <DetailsSection />
                     {

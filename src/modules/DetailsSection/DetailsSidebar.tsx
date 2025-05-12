@@ -16,8 +16,8 @@ const DetailsSidebar: React.FC<{
 
     return (
         <aside
-            className={`z-[100] fixed top-0 left-0 bottom-0 bg-slate-900 min-w-max w-full lg:max-w-[300px] flex flex-col p-6 gap-2 transition-transform duration-300 overflow-y-auto font-display
-            ${showSidebar ? "" : "-translate-x-full lg:translate-x-0"}`}
+            className={`z-[100] fixed top-0 left-0 bottom-0 bg-slate-900 min-w-max w-4/6 lg:max-w-[300px] flex flex-col p-6 gap-2 transition-transform duration-300 overflow-y-auto font-display
+    ${showSidebar ? "" : "-translate-x-full lg:translate-x-0"}`}
         >
             <div className="w-full flex items-center justify-between mb-4">
                 <button onClick={() => window.location.reload()}>
