@@ -68,4 +68,16 @@ export const languages: Language[] = [
             },
         ],
     },
+    {
+        name: "C",
+        description:
+            "C is a powerful, low-level programming language known for its efficiency and close-to-hardware operations. It's widely used in system programming, embedded systems, and operating systems like UNIX.",
+        projects: [],
+    },
+    {
+        name: "C++",
+        description:
+            "C++ is an extension of C that adds object-oriented features, making it suitable for building complex software like games, real-time systems, and large applications. It supports both low-level memory manipulation and high-level abstractions.",
+        projects: [],
+    },
 ];

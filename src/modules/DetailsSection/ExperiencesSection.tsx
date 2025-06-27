@@ -5,7 +5,7 @@ import { experienceData } from "../../assets/data/experienceData";
 
 const ExperiencesSection: React.FC = () => {
     return (
-        <section className="w-full min-h-max flex flex-col justify-start items-start py-6 px-8 md:ml-[200px] lg:ml-[350px] mt-[50px]">
+        <section className="w-full min-h-max flex flex-col justify-start items-start py-6 px-8 lg:ml-[350px] mt-[50px]">
             <div className="w-full prose max-w-full prose-h1:text-slate-300 prose-h1:font-bold">
                 <h1>
                     {"Experiences".split("").map((l, i) => (
@@ -47,7 +47,7 @@ const ExperiencesSection: React.FC = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <h4 className="flex flex-col lg:flex-row lg:items-center gap-1 group-hover:underline">
+                            <h4 className="flex flex-col md:flex-row md:items-center gap-1 group-hover:underline">
                                 <span className="font-bold text-xl lg:text-2xl">
                                     {d?.companyName}
                                 </span>
@@ -57,7 +57,7 @@ const ExperiencesSection: React.FC = () => {
                                 </span>
                                 <FaArrowRight className="text-xs -rotate-45 hidden md:block" />
                             </h4>
-                            <small className="text-slate-400 hidden lg:block">
+                            <small className="text-slate-400 hidden md:block">
                                 {d?.companyDescription}
                             </small>
                         </a>

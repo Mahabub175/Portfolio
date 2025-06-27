@@ -67,7 +67,7 @@ const ContactPage: React.FC = () => {
     };
 
     return (
-        <section className="w-full min-h-max flex flex-col justify-start items-start py-6 px-8 md:ml-[200px] lg:ml-[350px] mt-[50px]">
+        <section className="w-full min-h-max flex flex-col justify-start items-start py-6 px-8 lg:ml-[350px] mt-[50px]">
             <div className="w-full prose max-w-full prose-h1:text-slate-300 prose-h1:font-bold prose-a:text-slate-400 prose-a:no-underline lg:hover:prose-a:text-primary-400 prose-h4:text-slate-300 prose-h4:font-medium">
                 <h1>
                     {"Let's Connect".split("").map((l, i) => (

@@ -30,7 +30,7 @@ const DetailsSidebar: React.FC<{
                 </button>
                 <button
                     onClick={() => setShowSidebar(false)}
-                    className="p-2 rounded-lg text-slate-400 bg-slate-800/50 md:hidden"
+                    className="p-2 rounded-lg text-slate-400 bg-slate-800/50 lg:hidden"
                 >
                     <FaTimes />
                 </button>

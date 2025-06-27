@@ -16,7 +16,7 @@ const DetailsSection: React.FC = () => {
         <div className="w-full h-full max-w-full flex flex-row justify-start items-start gap-6">
             <button
                 onClick={() => setShowSidebar(true)}
-                className="fixed top-6 left-6 max-h-max p-2 text-lg rounded-lg text-slate-400 bg-slate-800 md:hidden z-[100]"
+                className="fixed top-6 left-6 max-h-max p-2 text-lg rounded-lg text-slate-400 bg-slate-800 lg:hidden z-[100]"
             >
                 <FaBars />
             </button>
